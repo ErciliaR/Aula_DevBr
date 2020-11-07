@@ -1,0 +1,50 @@
+/* lembrar de salvar o arquivo e suas alterações sempre */
+#test{
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+    border: 1px black; 
+}
+
+#back{
+    position: absolute;
+    left: 0;
+    top: -10mm;
+    width: 100%;
+    height: auto;
+    opacity: 1;
+}
+
+.text{
+    text-indent: 10mm;
+}
+
+h1{
+    padding: center;
+    margin: 10px;
+    /* text-shadow: 3px 6px 6px  gray; */
+    /* No text-shadow 3 valores para deslocamento (#1:direita #2:baixo #3:raio de desfoque) */
+    position: relative;
+    z-index: 2;
+    color: darkred; 
+    font-size: 64pt; 
+    font-family: sans-serif;
+}
+
+h2{
+    color:darkred;
+    font-family:Verdana;
+    text-indent: 5mm;
+}
+
+p{
+    margin: 5mm;
+    padding-bottom: 0.02px;
+}
+
+ul{
+    columns: 2;
+    width: 30%;
+    margin: 0mm;
+    padding-bottom: 0.02px;
+} 
